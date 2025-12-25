@@ -1,4 +1,4 @@
-local key = _G.Key
+local key = getgenv().Key
 local check = "http://127.0.0.1:5500/Whitelist/index.php?key=" .. key
 
 if game:HttpGet(check) == "Whitelisted" then
