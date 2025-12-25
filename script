@@ -1,0 +1,8 @@
+local key = _G.Key
+local check = "http://127.0.0.1:5500/Whitelist/index.php?key=" .. key
+
+if game:HttpGet(check) == "Whitelisted" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/d276zz/src/refs/heads/main/test"))()
+else
+    game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
+end
