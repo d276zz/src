@@ -18,11 +18,12 @@ local function generateRandomString(length)
 end
 
 local Custom = {} do
-    Custom.BackgroundDark = Color3.fromRGB(255, 255, 255)
-    Custom.FrameDark = Color3.fromRGB(0, 0, 0)
-    Custom.DarkBlue = Color3.fromRGB(255, 255, 255)
-    Custom.ColorRGB = Color3.fromRGB(128, 128, 128)
-    Custom.AccentColor = Color3.fromRGB(0, 180, 255)
+    Custom.ColorRGB = Color3.fromRGB(20, 20, 20)          -- noir doux (texte / éléments)
+    Custom.AccentColor = Color3.fromRGB(0, 170, 255)     -- bleu internet (accent)
+    Custom.DarkBlue = Color3.fromRGB(10, 35, 80)         -- bleu digital profond
+    Custom.BackgroundDark = Color3.fromRGB(245, 247, 250)-- blanc très clair (fond)
+    Custom.FrameDark = Color3.fromRGB(0, 0, 0)           -- noir pur (frames)
+
 
 
 
